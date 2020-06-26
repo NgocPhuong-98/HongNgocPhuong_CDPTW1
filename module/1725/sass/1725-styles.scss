@@ -1,0 +1,188 @@
+$color_price: #111;
+$color_bg_icon: #ffffff;
+$color: #777;
+$color_ahorver: #000;
+$color_name: #555;
+$color_bgbtn: #d26e4b;
+
+@mixin box($color) {
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 16px 10px;
+    background: $color;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+}
+
+@mixin border($a, $b, $c) {
+    border-width: $a;
+    border-style: $b;
+    border-color: $c;
+}
+.type-1725 {
+    a {
+        color: $color;
+        &:hover {
+            text-decoration: none;
+            color: $color_ahorver;
+        }
+    }
+    .gallery {
+        .ga_img {
+            width: 100%;
+            position: relative;
+        }
+        .img {
+            opacity: 0.5;
+            &:hover {
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+
+        .box_sale {
+            @include box(#d26e4b);
+            font-size: 20px;
+            top: 5.5%;
+        }
+        .box_new {
+            @include box(#566f90);
+            top: 11%;
+        }
+        .like {
+            position: absolute;
+            top: 10%;
+            right: 5%;
+        }
+    }
+
+    & .summary {
+        &_nav {
+            color: $color;
+            text-transform: uppercase;
+            line-height: 1.2px;
+            font-size: 13.6px;
+            margin: 8px 0px;
+            .divider {
+                margin: 0px 4px;
+            }
+        }
+        &_title {
+            .name {
+                font-size: 27px;
+                line-height: 1.3;
+                color: $color_name;
+            }
+
+            .is-divider {
+                height: 3px;
+                background-color: rgba(0, 0, 0, 0.1);
+                margin: 8px 0 8px;
+                width: 100%;
+                max-width: 30px;
+            }
+        }
+        &_price {
+            margin: 8px 0px;
+            .price_old {
+            }
+            .price_promotion {
+                color: $color_price;
+                font-size: 24px;
+                margin: 8px 0;
+                font-weight: bolder;
+                .unit {
+                    font-size: 12px;
+                    vertical-align: top;
+                    margin-top: 2px;
+                }
+            }
+        }
+        &_detail {
+            color: $color;
+            font-size: 20px;
+            line-height: 1.3;
+        }
+        &_add_cart {
+            margin: 8px 0px;
+            .add_cart_button {
+                color: #fff;
+                background-color: $color_bgbtn;
+                padding: 5px 19px;
+                text-transform: uppercase;
+                font-weight: bolder;
+                &:hover {
+                    background-color: #a8583c;
+                }
+            }
+            .quantity {
+                margin-bottom: 16px;
+                opacity: 1;
+
+                display: inline-flex;
+                margin-right: 16px;
+                white-space: nowrap;
+                vertical-align: top;
+                .input-text {
+                    max-width: 40px;
+                    width: 40px;
+                    text-align: center;
+                    border-radius: 0 !important;
+                    padding: 5px;
+                }
+                .is-form {
+                    border: 1px solid #ddd;
+                    &:hover {
+                        background: #c1c1c1;
+                    }
+                }
+            }
+        }
+        &_hender {
+            margin-top: 20px;
+            .categories {
+                border-top: 1px dotted #ddd;
+                padding: 5px 0px;
+                font-size: 13px;
+                color: $color;
+            }
+            .social-icons {
+                font-size: 10px;
+                line-height: 30px;
+                opacity: 0.5;
+                color: #999;
+
+                .fa {
+                    padding: 6px 8px;
+
+                    @include border(2px, solid, $color);
+                    border-radius: 100px;
+                    margin-right: 10px;
+                    vertical-align: middle;
+                    font-size: 19px;
+                    &:hover {
+                        opacity: 1;
+                        color: #fff;
+                    }
+                }
+                & .fa-facebook:hover {
+                    background: blue;
+                }
+                & .fa-twitter:hover {
+                    background: blue;
+                }
+
+                & .fa-envelope-o:hover {
+                    background: black;
+                }
+                & .fa-pinterest:hover {
+                    background: red;
+                }
+                & .fa-linkedin:hover {
+                    background: blue;
+                }
+            }
+        }
+    }
+}

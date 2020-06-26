@@ -30,91 +30,263 @@ $url_path = str_replace('\\', '/', $url_path);
 
         <!-- Show Product List -->
         <section class="category ">
-            <div class="container">
-                <div class="row category_list">
-                    <!-- Product Information -->
-                    <div class="col-lg-4 col-md-4  col-sm-4 col-12 category_item ">
-                        <a href="" class="category_link">
-                            <div class="item">
-                                <!--Image-->
-                                <img src="images/img1.jpg" alt="" class="category_item_img img-fluid">
-                                <!--detail-->
-                                <div class="category_item_box">
-                                    <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
-                                    <div class="category_item_box_aa"></div>
-                                    <p class="category_item_box_detail detail">Welcome to WordPress. This is your
-                                        first
-                                        post.
-                                        Edit or delete it, then start blogging! [...]</p>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="row swiper-slide category_list">
+                        <!-- Product Information -->
+                        <div class="col-lg-4 col-md-4  col-sm-4 col-12 category_item ">
+                            <a href="" class="category_link">
+                                <div class="item">
+                                    <!--Image-->
+                                    <img src="images/img1.jpg" alt="" class="category_item_img img-fluid">
+                                    <!--detail-->
+                                    <div class="category_item_box">
+                                        <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
+                                        <div class="category_item_box_aa"></div>
+                                        <p class="category_item_box_detail detail">Welcome to WordPress. This is your
+                                            first
+                                            post.
+                                            Edit or delete it, then start blogging! [...]</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <!--Month Day-->
-                            <div class="category_item_monthday">
-                                <div class="monthday">
-                                    <span class="category_item_monthday_day">13</span>
-                                    <br>
-                                    <span class="category_item_monthday_month">Oct</span>
+                                <!--Month Day-->
+                                <div class="category_item_monthday">
+                                    <div class="monthday">
+                                        <span class="category_item_monthday_day">13</span>
+                                        <br>
+                                        <span class="category_item_monthday_month">Oct</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- End Product Information -->
+                            </a>
+                        </div>
+                        <!-- End Product Information -->
 
-                    <!-- Product Information -->
-                    <div class="col-lg-4 col-md-4   col-sm-4 col-12  category_item ">
-                        <a href="" class="category_link">
-                            <div class="item">
-                                <!--Image-->
-                                <img src="images/img2.jpg" alt="" class="category_item_img img-fluid">
-                                <!--detail-->
-                                <div class="category_item_box">
-                                    <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
-                                    <div class="category_item_box_aa"></div>
-                                    <p class="category_item_box_detail detail">Welcome to WordPress. This is your
-                                        first
-                                        post.
-                                        Edit or delete it, then start blogging! [...]</p>
+                        <!-- Product Information -->
+                        <div class="col-lg-4 col-md-4   col-sm-4 col-12  category_item ">
+                            <a href="" class="category_link">
+                                <div class="item">
+                                    <!--Image-->
+                                    <img src="images/img2.jpg" alt="" class="category_item_img img-fluid">
+                                    <!--detail-->
+                                    <div class="category_item_box">
+                                        <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
+                                        <div class="category_item_box_aa"></div>
+                                        <p class="category_item_box_detail detail">Welcome to WordPress. This is your
+                                            first
+                                            post.
+                                            Edit or delete it, then start blogging! [...]</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <!--Month Day-->
-                            <div class="category_item_monthday">
-                                <div class="monthday">
-                                    <span class="category_item_monthday_day">13</span>
-                                    <br>
-                                    <span class="category_item_monthday_month">Oct</span>
+                                <!--Month Day-->
+                                <div class="category_item_monthday">
+                                    <div class="monthday">
+                                        <span class="category_item_monthday_day">13</span>
+                                        <br>
+                                        <span class="category_item_monthday_month">Oct</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                        <!-- End Product Information -->
+                        <!-- Product Information -->
+                        <div class="col-lg-4 col-md-4  col-sm-4 col-12 category_item ">
+                            <a href="" class="category_link">
+                                <div class="item">
+                                    <!--Image-->
+                                    <img src="images/img3.jpg" alt="" class="category_item_img img-fluid">
+                                    <!--detail-->
+                                    <div class="category_item_box">
+                                        <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
+                                        <div class="category_item_box_aa"></div>
+                                        <p class="category_item_box_detail detail">Welcome to WordPress. This is your
+                                            first
+                                            post.
+                                            Edit or delete it, then start blogging! [...]</p>
+                                    </div>
+                                </div>
+                                <!--Month Day-->
+                                <div class="category_item_monthday">
+                                    <div class="monthday">
+                                        <span class="category_item_monthday_day">13</span>
+                                        <br>
+                                        <span class="category_item_monthday_month">Oct</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Product Information -->
                     </div>
-                    <!-- End Product Information -->
-
-                    <!-- Product Information -->
-                    <div class="col-lg-4 col-md-4  col-sm-4 col-12 category_item ">
-                        <a href="" class="category_link">
-                            <div class="item">
-                                <!--Image-->
-                                <img src="images/img3.jpg" alt="" class="category_item_img img-fluid">
-                                <!--detail-->
-                                <div class="category_item_box">
-                                    <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
-                                    <div class="category_item_box_aa"></div>
-                                    <p class="category_item_box_detail detail">Welcome to WordPress. This is your
-                                        first
-                                        post.
-                                        Edit or delete it, then start blogging! [...]</p>
+                    <div class="row swiper-slide">
+                        <div class="col-lg-4 col-md-4  col-sm-4 col-12 category_item ">
+                            <a href="" class="category_link">
+                                <div class="item">
+                                    <!--Image-->
+                                    <img src="images/img1.jpg" alt="" class="category_item_img img-fluid">
+                                    <!--detail-->
+                                    <div class="category_item_box">
+                                        <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
+                                        <div class="category_item_box_aa"></div>
+                                        <p class="category_item_box_detail detail">Welcome to WordPress. This is your
+                                            first
+                                            post.
+                                            Edit or delete it, then start blogging! [...]</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <!--Month Day-->
-                            <div class="category_item_monthday">
-                                <div class="monthday">
-                                    <span class="category_item_monthday_day">13</span>
-                                    <br>
-                                    <span class="category_item_monthday_month">Oct</span>
+                                <!--Month Day-->
+                                <div class="category_item_monthday">
+                                    <div class="monthday">
+                                        <span class="category_item_monthday_day">13</span>
+                                        <br>
+                                        <span class="category_item_monthday_month">Oct</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                        <!-- End Product Information -->
+                        <!-- Product Information -->
+                        <div class="col-lg-4 col-md-4   col-sm-4 col-12  category_item ">
+                            <a href="" class="category_link">
+                                <div class="item">
+                                    <!--Image-->
+                                    <img src="images/img2.jpg" alt="" class="category_item_img img-fluid">
+                                    <!--detail-->
+                                    <div class="category_item_box">
+                                        <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
+                                        <div class="category_item_box_aa"></div>
+                                        <p class="category_item_box_detail detail">Welcome to WordPress. This is your
+                                            first
+                                            post.
+                                            Edit or delete it, then start blogging! [...]</p>
+                                    </div>
+                                </div>
+                                <!--Month Day-->
+                                <div class="category_item_monthday">
+                                    <div class="monthday">
+                                        <span class="category_item_monthday_day">13</span>
+                                        <br>
+                                        <span class="category_item_monthday_month">Oct</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Product Information -->
+                        <!-- Product Information -->
+                        <div class="col-lg-4 col-md-4  col-sm-4 col-12 category_item ">
+                            <a href="" class="category_link">
+                                <div class="item">
+                                    <!--Image-->
+                                    <img src="images/img3.jpg" alt="" class="category_item_img img-fluid">
+                                    <!--detail-->
+                                    <div class="category_item_box">
+                                        <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
+                                        <div class="category_item_box_aa"></div>
+                                        <p class="category_item_box_detail detail">Welcome to WordPress. This is your
+                                            first
+                                            post.
+                                            Edit or delete it, then start blogging! [...]</p>
+                                    </div>
+                                </div>
+                                <!--Month Day-->
+                                <div class="category_item_monthday">
+                                    <div class="monthday">
+                                        <span class="category_item_monthday_day">13</span>
+                                        <br>
+                                        <span class="category_item_monthday_month">Oct</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Product Information -->
                     </div>
-                    <!-- End Product Information -->
+                    <div class="row swiper-slide">
+                        <div class="col-lg-4 col-md-4  col-sm-4 col-12 category_item ">
+                            <a href="" class="category_link">
+                                <div class="item">
+                                    <!--Image-->
+                                    <img src="images/img1.jpg" alt="" class="category_item_img img-fluid">
+                                    <!--detail-->
+                                    <div class="category_item_box">
+                                        <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
+                                        <div class="category_item_box_aa"></div>
+                                        <p class="category_item_box_detail detail">Welcome to WordPress. This is your
+                                            first
+                                            post.
+                                            Edit or delete it, then start blogging! [...]</p>
+                                    </div>
+                                </div>
+                                <!--Month Day-->
+                                <div class="category_item_monthday">
+                                    <div class="monthday">
+                                        <span class="category_item_monthday_day">13</span>
+                                        <br>
+                                        <span class="category_item_monthday_month">Oct</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Product Information -->
+                        <!-- Product Information -->
+                        <div class="col-lg-4 col-md-4   col-sm-4 col-12  category_item ">
+                            <a href="" class="category_link">
+                                <div class="item">
+                                    <!--Image-->
+                                    <img src="images/img2.jpg" alt="" class="category_item_img img-fluid">
+                                    <!--detail-->
+                                    <div class="category_item_box">
+                                        <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
+                                        <div class="category_item_box_aa"></div>
+                                        <p class="category_item_box_detail detail">Welcome to WordPress. This is your
+                                            first
+                                            post.
+                                            Edit or delete it, then start blogging! [...]</p>
+                                    </div>
+                                </div>
+                                <!--Month Day-->
+                                <div class="category_item_monthday">
+                                    <div class="monthday">
+                                        <span class="category_item_monthday_day">13</span>
+                                        <br>
+                                        <span class="category_item_monthday_month">Oct</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Product Information -->
+                        <!-- Product Information -->
+                        <div class="col-lg-4 col-md-4  col-sm-4 col-12 category_item ">
+                            <a href="" class="category_link">
+                                <div class="item">
+                                    <!--Image-->
+                                    <img src="images/img3.jpg" alt="" class="category_item_img img-fluid">
+                                    <!--detail-->
+                                    <div class="category_item_box">
+                                        <h5 class="category_item_box_name">Welocome to FlatsomeFlatsome</h5>
+                                        <div class="category_item_box_aa"></div>
+                                        <p class="category_item_box_detail detail">Welcome to WordPress. This is your
+                                            first
+                                            post.
+                                            Edit or delete it, then start blogging! [...]</p>
+                                    </div>
+                                </div>
+                                <!--Month Day-->
+                                <div class="category_item_monthday">
+                                    <div class="monthday">
+                                        <span class="category_item_monthday_day">13</span>
+                                        <br>
+                                        <span class="category_item_monthday_month">Oct</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Product Information -->
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next-module-4">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="swiper-button-prev-module-4">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
                 </div>
             </div>
         </section>

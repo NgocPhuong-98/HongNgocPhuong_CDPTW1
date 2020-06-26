@@ -1,11 +1,13 @@
-.type-1725 a {
+.type-1725 .link {
   color: #777; }
-  .type-1725 a:hover {
+  .type-1725 .link:hover {
     text-decoration: none;
     color: #000; }
 .type-1725 .gallery .ga_img {
   width: 100%;
   position: relative; }
+  .type-1725 .gallery .ga_img:hover .wishlist {
+    opacity: 0.5; }
 .type-1725 .gallery .img {
   opacity: 0.5; }
   .type-1725 .gallery .img:hover {
@@ -34,6 +36,23 @@
   position: absolute;
   top: 10%;
   right: 5%; }
+.type-1725 .gallery .wishlist {
+  position: absolute;
+  top: 1%;
+  right: 5%;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  opacity: 0; }
+  .type-1725 .gallery .wishlist .icon-wishlist {
+    font-size: 14px;
+    margin: 3px 7px; }
+    .type-1725 .gallery .wishlist .icon-wishlist a {
+      color: #ccc; }
+  .type-1725 .gallery .wishlist:hover {
+    border-color: #b20000;
+    background-color: #b20000; }
+    .type-1725 .gallery .wishlist:hover .icon-wishlist a {
+      color: #fff; }
 .type-1725 .summary_nav {
   color: #777;
   text-transform: uppercase;

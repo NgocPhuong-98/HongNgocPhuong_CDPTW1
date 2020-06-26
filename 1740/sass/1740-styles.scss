@@ -2,6 +2,11 @@ $primary-color: #555;
 $transform: uppercase;
 $align: center;
 
+$cl-1: #ececec;
+$cl-2: #555;
+$cl-hover: #000;
+$cl-link: #334862;
+
 @mixin size($width, $height) {
     width: $width;
     height: $height;
@@ -134,4 +139,67 @@ $align: center;
             }
         }
     }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+  
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+      .swiper-container{
+          padding: 0;
+          &:hover{
+              .swiper-button-next-module-4{
+                  right: -7px;
+              }
+              .swiper-button-prev-module-4{
+                  left: -7px;
+              }
+          }
+          .swiper-button-next-module-4, .swiper-button-prev-module-4{
+              &:focus{
+                  outline: none;
+              }
+              cursor: pointer;
+              background: #ffffff80;
+              position: absolute;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 100%;
+              top: 0;
+              width: 30px;
+              z-index: 999;
+              transition: all .2s;
+              i{
+                  font-size: 24px;
+                  color: $cl-2;
+              }
+              &:hover{
+                  i{
+                      color: $cl-link;
+                  }
+                  background-color: #fff;            
+                  box-shadow: 0 -150px 15px 0 rgba(0,0,0,.3);
+              }
+          }
+          .swiper-button-next-module-4{
+              right: -30px;
+          }
+          .swiper-button-prev-module-4{
+              left: -30px;
+          }
+      }
 }

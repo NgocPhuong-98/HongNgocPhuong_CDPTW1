@@ -90,3 +90,52 @@
           background-color: #446084; }
       .type-1740 .category_item_monthday_month {
         font-size: 0.7em; }
+  .type-1740 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .type-1740 .swiper-container {
+    padding: 0; }
+    .type-1740 .swiper-container:hover .swiper-button-next-module-4 {
+      right: -7px; }
+    .type-1740 .swiper-container:hover .swiper-button-prev-module-4 {
+      left: -7px; }
+    .type-1740 .swiper-container .swiper-button-next-module-4, .type-1740 .swiper-container .swiper-button-prev-module-4 {
+      cursor: pointer;
+      background: #ffffff80;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      top: 0;
+      width: 30px;
+      z-index: 999;
+      transition: all 0.2s; }
+      .type-1740 .swiper-container .swiper-button-next-module-4:focus, .type-1740 .swiper-container .swiper-button-prev-module-4:focus {
+        outline: none; }
+      .type-1740 .swiper-container .swiper-button-next-module-4 i, .type-1740 .swiper-container .swiper-button-prev-module-4 i {
+        font-size: 24px;
+        color: #555; }
+      .type-1740 .swiper-container .swiper-button-next-module-4:hover, .type-1740 .swiper-container .swiper-button-prev-module-4:hover {
+        background-color: #fff;
+        box-shadow: 0 -150px 15px 0 rgba(0, 0, 0, 0.3); }
+        .type-1740 .swiper-container .swiper-button-next-module-4:hover i, .type-1740 .swiper-container .swiper-button-prev-module-4:hover i {
+          color: #334862; }
+    .type-1740 .swiper-container .swiper-button-next-module-4 {
+      right: -30px; }
+    .type-1740 .swiper-container .swiper-button-prev-module-4 {
+      left: -30px; }

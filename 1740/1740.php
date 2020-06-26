@@ -32,6 +32,9 @@ $url_path = str_replace('\\', '/', $url_path);
     <link href="<?php echo $url_path ?>/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet" />
     <link href="<?php echo $url_path ?>/swiper-5.4.1/package/css/swiper.min.css" rel="stylesheet" />
     <link href="<?php echo $url_path ?>/family-font/Roboto-Black.ttf" rel="stylesheet" />
+    <script src="<?php echo $url_path ?>/swiper-5.4.1/package/js/swiper.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
+    <script src="js/1740.js"></script>
 
     <title>Document</title>
 
@@ -42,8 +45,6 @@ $url_path = str_replace('\\', '/', $url_path);
      include "./1740-content.php";
    ?>
 </body>
-<script src="<?php echo $url_path ?>/swiper-5.4.1/package/js/swiper.min.js"></script>
-<script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
-<script src="js/1740.js"></script>
+
 
 </html>

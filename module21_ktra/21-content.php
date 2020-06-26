@@ -71,7 +71,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
             <!-- Child Question Three-->
             <div class="accordion_item">
-                <div class="panel-heading" role="tab" id="headingTwo">
+                <div class="panel-heading" role="tab" id="headingThree">
                     <div class="panel-title">
                         <!-- Question -->
                         <a role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false"
@@ -95,8 +95,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <!-- End Child Question Three -->
-
-
-
         </div>
     </div>
+</div>

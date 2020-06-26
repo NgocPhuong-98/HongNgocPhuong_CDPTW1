@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-6 bder_login">
                 <h3 class="uppercase">LOGIN</h3>
                 <!-- Show Form Login-->
-                <form action="" class="login forms">
+                <form action="#" class="login forms">
                     <div class="username margins">
                         <label class="lbl" for="username">Username or email address*</label><br>
                         <input type="text" class="input_text" id="username">
@@ -35,7 +35,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <button type="submit" class="btn_login btn">log in</button>
                     </div>
                     <div class="lost_pass margins">
-                        <a href=""class="link">Lost your password?</a>
+                        <a href="#"  class="link">Lost your password?</a>
                     </div>
                 </form>
                 <!--End Form Login-->
@@ -44,14 +44,14 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-6 bder_rg">
                 <h3 class="uppercase">register</h3>
                 <!-- Show Form Login-->
-                <form action="" class="registier forms">
+                <form action="#" class="registier forms">
                     <div class="rg_email margins">
                         <label class="lbl" for="rg_email">Email address*</label><br>
                         <input type="text" class="input_text" id="rg_email">
                     </div>
                     <div class="rg_password margins">
                         <label class="lbl" for="rg_password">Password*</label><br>
-                        <input type="rg_password" class="input_text" id="rg_password">
+                        <input type="password" class="input_text" id="rg_password">
                     </div>
                     <div class="rg_text margins">
                         <p>Your personal data will be used to support your experience throughout this website, to

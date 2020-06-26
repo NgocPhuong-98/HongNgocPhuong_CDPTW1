@@ -36,7 +36,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <a href="" class="category_link tag ">OCTOBER 13, 2015</a>
                                 <span class="category_title_note tag">BY</span>
                                 <a href="" class="category_link tag">TOMMY VEDVIK</a>
-                                </p>
+
                             </div>
                         </div>
                         <!--end title-->

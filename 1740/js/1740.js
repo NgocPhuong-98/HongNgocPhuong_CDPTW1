@@ -1,5 +1,6 @@
 
-var swiper = new Swiper('.swiper-container', {
+$(document).ready(function(){
+  var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -8,7 +9,8 @@ var swiper = new Swiper('.swiper-container', {
       clickable: true,
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next-module-4',
+      prevEl: '.swiper-button-prev-module-4',
     },
   });
+});

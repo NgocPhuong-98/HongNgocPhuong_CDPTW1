@@ -17,7 +17,13 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">
             <div class="col-md-6 gallery">
                 <div class="gallery_img">
-                    <img src="images/img3.jpeg" alt="" class="img-fluid ga_img ">
+                    <img src="images/img3.jpeg" alt="" class="img-fluid">
+                    <div class="wishlist">
+                        <div class="icon-wishlist">
+                            <a href="#" class="link" data-toggle="tooltip" data-placement="bottom"
+                                title="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="row thumbnail mx-n1 mt-2">
                     <div class="col-md-3 col px-1">
@@ -44,25 +50,20 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 <div class="often">
                 </div>
-                <div class="wishlist">
-                    <div class="icon-wishlist">
-                        <a href="#"  class="link" data-toggle="tooltip" data-placement="bottom" title="Add to Wishlist"><i
-                                class="fas fa-heart"></i></a>
-                    </div>
-                </div>
+
 
 
             </div>
 
             <div class="col-md-4 summary">
                 <div class="summary_nav ">
-                    <a href=""  class="link">home</a>
+                    <a href="" class="link">home</a>
                     <span class="divider">/</span>
-                    <a href=""  class="link">shop</a>
+                    <a href="" class="link">shop</a>
                     <span class="divider">/</span>
-                    <a href=""  class="link">womem</a>
+                    <a href="" class="link">womem</a>
                     <span class="divider">/</span>
-                    <a href=""  class="link">tops</a>
+                    <a href="" class="link">tops</a>
 
                 </div>
                 <div class="summary_title">
@@ -97,23 +98,23 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="summary_hender">
                     <div class="categories">
                         <p>
-                            Categories: <a href=""  class="link">Tops</a> ,<a href=""  class="link" class="">Women</a>
+                            Categories: <a href="" class="link">Tops</a> ,<a href="" class="link" class="">Women</a>
                         </p>
                     </div>
                     <div class="social-icons share-icons share-row relative">
                         <a href="#" class="link">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
-                        <a href="#"  class="link">
+                        <a href="#" class="link">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
-                        <a href="#"  class="link">
+                        <a href="#" class="link">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
                         </a>
-                        <a href="#"  class="link">
+                        <a href="#" class="link">
                             <i class="fa fa-pinterest" aria-hidden="true"></i>
                         </a>
-                        <a href="#"  class="link">
+                        <a href="#" class="link">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
                     </div>

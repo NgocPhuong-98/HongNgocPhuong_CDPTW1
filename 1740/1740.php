@@ -7,7 +7,7 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 
-    require_once 'scss.inc.php';
+    require_once "scss.inc.php";
 
     use ScssPhp\ScssPhp\Compiler;
 
@@ -27,8 +27,10 @@ $url_path = str_replace('\\', '/', $url_path);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $url_path ?>/css/1740-styles.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/1740-styles.css" rel="stylesheet" type="text/css" />
+    
     <link href="<?php echo $url_path ?>/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet" />
     <link href="<?php echo $url_path ?>/swiper-5.4.1/package/css/swiper.min.css" rel="stylesheet" />
     <link href="<?php echo $url_path ?>/family-font/Roboto-Black.ttf" rel="stylesheet" />
@@ -36,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
     <script src="js/1740.js"></script>
 
-    <title>Document</title>
+
 
 </head>
 

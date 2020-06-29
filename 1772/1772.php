@@ -33,7 +33,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <link href="<?php echo $url_path ?>/family-font/Roboto-Black.ttf" rel="stylesheet"/>
     <script src="<?php echo $url_path ?>/swiper-5.4.1/package/js/swiper.min.js"></script>
     <script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="<?php echo $url_path ?>/js/scripts.js"></script>
+    <script  src="<?php echo $url_path ?>/js/scripts.js"></script>
     <title>Document</title>
     
 </head>

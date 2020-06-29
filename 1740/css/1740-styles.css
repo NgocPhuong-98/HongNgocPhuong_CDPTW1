@@ -32,6 +32,9 @@
     padding: 0px 15px;
     text-align: center;
     font-size: 0.9em; }
+    .type-1740 .category_item:hover .monthday {
+      color: #fff;
+      background-color: #446084; }
     .type-1740 .category_item .item {
       position: relative; }
     .type-1740 .category_item_img {

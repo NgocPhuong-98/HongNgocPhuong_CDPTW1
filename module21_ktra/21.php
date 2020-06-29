@@ -35,7 +35,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="<?php echo $url_path ?>/swiper-5.4.1/package/js/swiper.min.js"></script>
     <script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="<?php echo $url_path ?>/js/scripts.js"></script>
+    <script  src="<?php echo $url_path ?>/js/scripts.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/21.js"></script>
     <title>Document</title>

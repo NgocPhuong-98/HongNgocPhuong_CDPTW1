@@ -29,60 +29,59 @@ $color_bgbtn: #d26e4b;
         }
     }
     .gallery {
-        .ga_img {
-            width: 100%;
+        &_img {
             position: relative;
-            &:hover{
-                .wishlist{
-                    opacity: 0.5;
+            &:hover {
+                .wishlist {
+                    opacity: 1;
                 }
             }
         }
-        .img {
-            opacity: 0.5;
-            &:hover {
-                opacity: 1;
-                cursor: pointer;
-              
-            }
-        }
-
-        .box_sale {
-            @include box(#d26e4b);
-            font-size: 20px;
-            top: 5.5%;
-        }
-        .box_new {
-            @include box(#566f90);
-            top: 11%;
-        }
-        .like {
-            position: absolute;
-            top: 10%;
-            right: 5%;
-        }
-        .wishlist{
+        .wishlist {
             position: absolute;
             top: 1%;
             right: 5%;
             border: 2px solid #ccc;
             border-radius: 50%;
             opacity: 0;
-            .icon-wishlist{
+            .icon-wishlist {
                 font-size: 14px;
                 margin: 3px 7px;
-                a{
+                a {
                     color: #ccc;
                 }
             }
-            &:hover{
+            &:hover {
                 border-color: #b20000;
                 background-color: #b20000;
-                .icon-wishlist a{
+                .icon-wishlist a {
                     color: #fff;
                 }
             }
         }
+    }
+
+    .img {
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+
+    .box_sale {
+        @include box(#d26e4b);
+        font-size: 20px;
+        top: 5.5%;
+    }
+    .box_new {
+        @include box(#566f90);
+        top: 11%;
+    }
+    .like {
+        position: absolute;
+        top: 10%;
+        right: 5%;
     }
 
     & .summary {

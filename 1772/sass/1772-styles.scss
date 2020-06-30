@@ -42,7 +42,7 @@ $color_ahorver: #000;
             width: 100%;
             margin: 0 auto;
         }
-        & .tag {
+        .tag {
             font-size: 11px;
             line-height: 1.2;
             text-transform: uppercase;
@@ -124,13 +124,13 @@ $color_ahorver: #000;
         }
 
         &_detail {
-            & .detail {
+            .detail {
                 text-align: left;
 
                 color: $color_p;
                 font-size: 15px;
             }
-            & .button {
+            .button {
                 border: 2px solid currentColor;
                 font-weight: bolder;
                 padding: 8px 16px;

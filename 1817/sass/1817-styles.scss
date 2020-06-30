@@ -16,20 +16,20 @@ $color_text: #ddd;
 
 .type-1817 {
     opacity: 0.7;
-    & .bder_rg { //css col register
+    .bder_rg { //css col register
        padding: 0 30px 30px;
     }
-    & .bder_login{ //css col login
+    .bder_login{ //css col login
         @extend .bder_rg;
          border-right: 1px solid $color_text;
     }
-    & .uppercase {
+    .uppercase {
         @include transfrom();
         letter-spacing: 1px;
         @include size(20px) ;
     }
 
-    & .link {
+    .link {
         color: $color_a;
         &:hover {
             color: $color_a_hover;
@@ -37,33 +37,33 @@ $color_text: #ddd;
         }
     }
     //Form
-    & .forms {
+    .forms {
 
-        & .margins {//tao margin-bottom co <div>
+        .margins {//tao margin-bottom co <div>
             margin-bottom: 8px;
-            & .lbl {
+            .lbl {
                 color: $color_lbl;
                 font-weight: 700;
                 @include size(14px) ;
             }
-            & .btn { //css button
+            .btn { //css button
                 background-color: $color_bg_btn;
                 color: $color_btn;
                 @include transfrom();
                 padding:8px 19px;
                 font-weight: bolder;
             }
-            & .input_checkbox {
+            .input_checkbox {
                 margin-bottom: 16px;
             }
-            & .input_text {
+            .input_text {
                 @extend .input_checkbox;
                 height: 40px;
                 width: 100%;
                 border: 1px solid $color_text;
                
             }
-            & .rg_text {
+            .rg_text {
                 @include size(85%) ;
             }
         }

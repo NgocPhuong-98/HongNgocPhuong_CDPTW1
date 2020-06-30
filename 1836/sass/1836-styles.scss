@@ -1,20 +1,22 @@
 $color_bg: #f4f4f4;
 .type-1836 {
     background: $color_bg;
+    padding-top: 30px;
 
-    & .content {
+    .content {
         width: 72%;
         text-align: center;
         margin: auto;
         opacity: 0.6;
+        
     }
-    & .detail_text {
+    .detail_text {
         font-size: 20px;
     }
-    & .title_text {
+    .title_text {
         font-size: 25px;
     }
-    & .div_img {
+    .div_img {
         
         transform: translateY(0px);
         padding-top: 30px;
